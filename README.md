@@ -53,7 +53,7 @@ provider "azurerm" {
 }
 
 module "ContainerGroup" {
-  source = "../../module-container-group"
+  source = "local_path_of_module_dir"
 
   # project or application name
   project = "app"
