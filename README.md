@@ -130,7 +130,7 @@ module "ContainerGroup" {
 
       # optional
       secure_environment_variables = {
-        "APP_DATABASE_PASS" = "RJZw#2Tt$oc0lu0n"
+        "APP_DATABASE_PASS" = "db_password"
       }
     }
   }
